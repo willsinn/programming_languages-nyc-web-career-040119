@@ -6,6 +6,7 @@ def reformat_languages(languages)
             language_attributes[language] = {}
           end
           language_attributes[language][:style] ||= []
+            language_attributes[language][:style] << oo_or_functional
 end
 
 def languages 
