@@ -8,6 +8,7 @@ def reformat_languages(languages)
           language_attributes[language][:style] ||= []
           language_attributes[language][:style] << oo_or_functional
           if language_attributes[language][attribute].nil?
+          language_attributes[language][attribute] = str_value
 end
 
 def languages 
