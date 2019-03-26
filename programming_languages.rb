@@ -1,5 +1,5 @@
 def reformat_languages(languages)
-  # your code here
+  languages.each do |oo_or_functional, language_hash|
 end
 
 def languages 
