@@ -5,6 +5,7 @@ def reformat_languages(languages)
           if language_attributes[language].nil?
             language_attributes[language] = {}
           end
+          language_attributes[language][:style] ||= []
 end
 
 def languages 
